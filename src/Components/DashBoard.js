@@ -3,12 +3,12 @@ import List from './List';
 import Input from './Input';
 import Button from './Button';
 
-const DashBoard = ({ items, handleEvent, inputValue }) => {
+const DashBoard = () => {
   return (
     <>
-      <Input handleEvent={handleEvent} inputValue={inputValue} />
-      <Button handleEvent={handleEvent}>add task</Button>
-      <List items={items} />
+      <Input />
+      <Button>add task</Button>
+      <List />
     </>
   );
 }
